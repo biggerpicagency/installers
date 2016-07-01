@@ -16,6 +16,7 @@ class Installer extends LibraryInstaller
     private $supportedTypes = array(
         'aimeos'       => 'AimeosInstaller',
         'asgard'       => 'AsgardInstaller',
+        'alfred'       => 'AlfredInstaller',
         'agl'          => 'AglInstaller',
         'annotatecms'  => 'AnnotateCmsInstaller',
         'bitrix'       => 'BitrixInstaller',
